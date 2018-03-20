@@ -20,4 +20,10 @@ class School
   def grade(grade)
     @roster[grade]
   end
+
+  def sort
+    @roster.collect do |grade, students_array|
+      
+    end
+  end
 end
