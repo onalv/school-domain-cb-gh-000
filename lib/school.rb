@@ -1,6 +1,6 @@
 # code here!
 class School
-  attr_reader :name
+  attr_reader :name, :roster
 
   def initialize(name)
     @name = name
@@ -8,6 +8,6 @@ class School
   end
 
   def add_student(name, grade)
-    if 
+    if
   end
 end
